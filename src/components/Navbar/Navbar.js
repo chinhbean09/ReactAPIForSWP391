@@ -2,15 +2,22 @@ import React from "react";
 import styles from "./Navbar.module.css";
 
 const Navbar = ({ hamActive, setHamActive }) => {
-  const logo =
-    "echbuon.png";
-  const handleClick = () => {
+  const logo = "echbuon.png";
+  
+    const handleClick = () => {
     setHamActive(!hamActive);
   };
 
   return (
     <nav className={`${styles.navbarWrapper} center`}>
       <div className={`${styles.navbarInner} center`}>
+        
+      <button
+          className={`${styles.hamburger} ${hamActive && styles.active}`}
+          onClick={handleClick}
+        >
+          <span className={styles.hamburgerLines}></span>
+        </button>
 
         <div className={`${styles.navLeft}`}>
         <img src={logo} alt="logo" className={`${styles.brand}`} />
