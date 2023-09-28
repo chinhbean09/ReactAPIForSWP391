@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar/Navbar";
 import NavbarResponsive from "./components/NavbarResponsive/NavbarResponsive";
 import Hero from "./components/Hero/Hero";
 import Registration from "./components/Registration/Registration";
+import Login from "./components/Login/Login";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <NavbarResponsive hamActive={hamActive} />
       <Hero />
       <Registration />
+      <Login />
       
     </div>
   );
