@@ -1,0 +1,75 @@
+.CheckBoxList {
+  font-family: sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 50vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* margin-top: 20px; */
+  margin: 10px;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: flexbox;
+    /* margin-left: 20px; */
+    background-color: #0c4e88;
+    color:aliceblue;
+    font-weight: bold;
+    width: 100%; /* Đặt chiều rộng là 100% để chảy hết thẻ */
+}
+.item1{
+  background-color: aliceblue;
+  /* border-radius: 10%; */
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 10%;
+
+}
+
+  
+  /* .list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+  } */
+  .list-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr); /* Chia thành 2 cột bằng nhau */
+    gap: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+  }
+  
+  .checked-item,
+  .not-checked-item {
+    margin-left: 10px;
+  }
+  .checked-item {
+    text-decoration: line-through;
+  }
+  .items{
+    display: flex;
+  
+  }
+  .checkLists{
+    background-color: aliceblue;
+    border-radius: 10%;
+    margin-left: 20px;
+  }
+  .checked{
+    background-color: #0c4e88;
+    color:aliceblue;
+
+    /* background-color: aliceblue; */
+    border-radius: 10%;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-radius: 10%;
+  }
