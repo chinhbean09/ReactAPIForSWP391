@@ -3,13 +3,12 @@ import "./CheckBoxList.css";
 
 const CheckBoxList = () => {
   const [checked, setChecked] = useState([]);
-  const categories = ["Type Service", "Type Cloth"]; // Danh sách danh mục cho mỗi cột
+  const categories = ["Type Service", "Type Cloth"];
   const checkLists = [
-    ["Dry Cleaning", "Wet Cleaning", "Laundry","Instant Service","Hand-Dry","Wash & Fold"],
-    ["Suede & Leather", "Shoes", "Furniture", "Clothes","Helmets washing","Special"]
-  ]; // Danh sách các mục cho mỗi cột
+    ["Dry Cleaning", "Wet Cleaning", "Laundry", "Instant Service", "Hand-Dry", "Wash & Fold"],
+    ["Suede & Leather", "Shoes", "Furniture", "Clothes", "Helmets washing", "Special"]
+  ];
 
-  // Add/Remove checked item from list
   const handleCheck = (event) => {
     var updatedList = [...checked];
     if (event.target.checked) {
@@ -20,48 +19,48 @@ const CheckBoxList = () => {
     setChecked(updatedList);
   };
 
-  // Generate string of checked items
   const checkedItems = checked.length
     ? checked.reduce((total, item) => {
         return total + ", " + item;
       })
     : "";
 
-  // Return classes based on whether item is checked
   var isChecked = (item) =>
     checked.includes(item) ? "checked-item" : "not-checked-item";
 
   return (
-    <div className="CheckBoxList">
-    
-            
-            <div className="checked">{`Items checked are: ${checkedItems}`}</div>
-            <div className="container">
-      <div className="row">
-        <div className="col-md-4 item1">
-          {categories.map((category, categoryIndex) => (
-            <div key={categoryIndex}>
-              <div className="title">{category}</div>
-              <div className="list-container">
-                {checkLists[categoryIndex].map((item, index) => (
-                  <div className="items" key={index}>
-                    <input value={item} type="checkbox" onChange={handleCheck} />
-                    <span className={isChecked(item)}>{item}</span>
-                  </div>
-                ))}
-              </div>
+    <section
+      className="p-5 w-100"
+      style={{ backgroundColor: "#eee", borderRadius: ".5rem .5rem 0 0" }}
+    >
+      <div class="card text-black" style={{ borderRadius: "25px" }}>
+      <div class="card-body p-md-5">
+        <div className="checked">{`Items checked are: ${checkedItems}`}</div>
+        <div className="row">
+  <div className="item1 col-md-4">
+    {categories.map((category, categoryIndex) => (
+      <div key={categoryIndex}>
+        <div className="title">{category}</div>
+        <div className="list-container">
+          {checkLists[categoryIndex].map((item, index) => (
+            <div className="items" key={index}>
+              <input value={item} type="checkbox" onChange={handleCheck} />
+              <span className={isChecked(item)}>{item}</span>
             </div>
           ))}
         </div>
-        <div className="col-md-8">
-          
-            <p>Nội dung bên phải nằm ở đây.</p>
-          
+      </div>
+    ))}
+  </div>
+  <div className="item2 col-md-7">
+    <p>Các Shop.</p>
+  </div>
+</div>
+
+
         </div>
       </div>
-    </div>
-    </div>
-    
+    </section>
   );
 };
 
