@@ -176,7 +176,10 @@ const Registration = () => {
                   <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
                     <img
                       // src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
-                      src="https://c.wallhere.com/photos/ce/76/boobs_beach_bikini_hard_nipples_navels_wet_anime_girls_big_boobs-1195192.jpg!d"
+                      // src="https://c.wallhere.com/photos/ce/76/boobs_beach_bikini_hard_nipples_navels_wet_anime_girls_big_boobs-1195192.jpg!d"
+                     
+                      src="https://res.klook.com/images/fl_lossy.progressive,q_65/c_fill,w_1200,h_630/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/i2z9dctgddu57ydqloam/Tri%E1%BB%83n%20l%C3%A3m%20%C4%91%E1%BA%B7c%20bi%E1%BB%87t%20k%E1%BB%B7%20ni%E1%BB%87m%2030%20n%C4%83m%20Crayon%20Shin-chan%20%E2%80%9CShingeki!%20Ass%20Only%20Wonderland%20Adventure%E2%80%9D%20%C4%90%E1%BB%8Ba%20%C4%91i%E1%BB%83m%20Osaka.jpg"
+
                       class="img-fluid"
                       alt=""
                     />
