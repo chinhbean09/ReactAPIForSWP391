@@ -56,11 +56,12 @@
   } */
   .list-container {
     display: grid;
-    align-items: flex-start;
+    align-items: center;
     grid-template-columns: repeat(2, 1fr); /* Chia thành 2 cột bằng nhau */
     gap: 10px;
     margin-left: 20px;
     padding-bottom: 10px;
+    text-align: start;
   }
   
   .checked-item,
