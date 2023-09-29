@@ -126,6 +126,7 @@ const CheckBoxList = () => {
 
 
         </div>
+        <div>vinhlon</div>
     </section>
   );
 };
