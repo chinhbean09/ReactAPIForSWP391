@@ -1,0 +1,66 @@
+.container {
+    width: 952px;
+    height: 300px;
+    border-radius: 30px;
+    margin: 30px 290px 30px;
+    background: rgba(129, 242, 250, 0.381);
+    padding-left: 60px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    column-gap: 30px;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 2fr 4fr;
+    overflow: hidden;
+}
+.brand {
+    width: 120px;
+    cursor: pointer;
+    height: 70px;
+    text-align: left;
+    grid-row: 1;
+  }
+  .text1 {
+    grid-column: 1 ; 
+    text-align: left;
+    grid-row: 2;
+    font-size: 18px;
+  }
+  .text2 {
+    grid-column: 2 ; 
+    text-align: left;
+    grid-row: 2;
+    font-size: 18px;
+  }
+  .text3{
+    grid-row: 1;
+    text-align: left;
+    font-weight: bold;
+    font-size: 24px;
+}
+  .text4{
+    grid-row: 1;
+    grid-column: 3;
+    font-size: 18px;
+  }
+  .text5{
+    grid-row: 2;
+    grid-column: 3;
+    font-size: 18px;
+  }
+.icon{
+  width: 260px;
+  height: 90px;
+  font-size: 26px;
+  align-items: center;
+  text-align: left;
+}
+.LH{
+  text-align: left;
+    
+    font-size: 18px;
+
+}
+
+ 

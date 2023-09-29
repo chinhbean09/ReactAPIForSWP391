@@ -7,7 +7,7 @@ import Registration from "./components/Registration/Registration";
 import Login from "./components/Login/Login";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import CheckBoxList from "./components/CheckBoxList/CheckBoxList";
-
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   const [hamActive, setHamActive] = useState(false);
@@ -15,11 +15,12 @@ const App = () => {
   return (
     <div className="App">
       <Navbar hamActive={hamActive} setHamActive={setHamActive} />
-      <NavbarResponsive hamActive={hamActive} />
+      {/* <NavbarResponsive hamActive={hamActive} /> */}
       <Hero />
       <CheckBoxList />
       <Registration />
       <Login />
+      <Footer/>
     </div>
   );
 };
