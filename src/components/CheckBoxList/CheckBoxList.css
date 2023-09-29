@@ -7,7 +7,6 @@
   flex-direction: column;
   gap: 20px;
   height: 50vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   /* margin-top: 20px; */
   /* margin: 10px; */
   width: 100%;
@@ -57,7 +56,7 @@
   } */
   .list-container {
     display: grid;
-    align-items: center;
+    align-items: flex-start;
     grid-template-columns: repeat(2, 1fr); /* Chia thành 2 cột bằng nhau */
     gap: 10px;
     margin-left: 20px;
@@ -71,15 +70,11 @@
   .checked-item {
     text-decoration: line-through;
   }
-  .items{
+  /* .items{
     display: flex;
   
-  }
-  .checkLists{
-    /* background-color: aliceblue; */
-    /* border-radius: 10%; */
-    /* margin-left: 20px; */
-  }
+  } */
+  
   .checked{
     /* background-color: #0c4e88; */
     /* color:aliceblue; */
