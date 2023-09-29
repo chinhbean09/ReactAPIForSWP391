@@ -7,7 +7,6 @@
   flex-direction: column;
   gap: 20px;
   height: 50vh;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   /* margin-top: 20px; */
   /* margin: 10px; */
   width: 100%;
@@ -62,6 +61,7 @@
     gap: 10px;
     margin-left: 20px;
     padding-bottom: 10px;
+    text-align: start;
   }
   
   .checked-item,
@@ -71,15 +71,11 @@
   .checked-item {
     text-decoration: line-through;
   }
-  .items{
+  /* .items{
     display: flex;
   
-  }
-  .checkLists{
-    /* background-color: aliceblue; */
-    /* border-radius: 10%; */
-    /* margin-left: 20px; */
-  }
+  } */
+  
   .checked{
     /* background-color: #0c4e88; */
     /* color:aliceblue; */
