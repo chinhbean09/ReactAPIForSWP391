@@ -1,0 +1,87 @@
+.CheckBoxList {
+  font-family: sans-serif;
+  font-size: 18px;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 50vh;
+  /* margin-top: 20px; */
+  /* margin: 10px; */
+  width: 100%;
+  background-color: white;
+}
+
+.title {
+    font-size: 22px;
+    margin-bottom: 10px;
+    display: flexbox;
+    /* margin-left: 20px; */
+    background-color: #0c4e88;
+    color:aliceblue;
+    font-weight: bold;
+    width: 100%; /* Đặt chiều rộng là 100% để chảy hết thẻ */
+    
+}
+.item1{
+  background-color: aliceblue;
+  /* border-radius: 10%; */
+  padding-left: 0px;
+  padding-right: 0px;
+  /* border-radius: 10%; */
+  border: 2px solid #000; /* Thêm viền đen với độ rộng 2px */
+  margin-right:15px;
+}
+.item2{
+  /* border: 2px solid #000; */
+   /* Thêm viền đen với độ rộng 2px */
+  /* margin-left: 10px; */
+  display: inline-flex;
+
+}
+.item2-1{
+  display:flex;
+  margin-left: 0px;
+}
+.item2-2{
+  border: 1px solid #000;
+}
+  
+  /* .list-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 20px;
+  } */
+  .list-container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr); /* Chia thành 2 cột bằng nhau */
+    gap: 10px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+    text-align: start;
+  }
+  
+  .checked-item,
+  .not-checked-item {
+    margin-left: 10px;
+  }
+  .checked-item {
+    text-decoration: line-through;
+  }
+  /* .items{
+    display: flex;
+  
+  } */
+  
+  .checked{
+    /* background-color: #0c4e88; */
+    /* color:aliceblue; */
+    /* margin-left: 4.9rem; */
+    /* background-color: aliceblue; */
+    text-align: start;
+    margin-left: 20px;
+    /* margin-bottom: 10px; */
+  }

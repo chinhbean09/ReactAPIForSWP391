@@ -44,15 +44,15 @@ const Navbar = ({ hamActive, setHamActive }) => {
           </div>
 
           <div>
-          {/* <a href="/" className={styles.login}>
+          <a href="/" className={styles.login}>
               Log in
             </a>
             
-            <button className={styles.signup}>Sign Up</button> */}
-          {/* <a className={styles.icon1}><i class="fas fa-cart-plus"></i></a> */}
+          <button className={styles.signup}>Sign Up</button> 
+          <a className={styles.icon1}><i class="fas fa-cart-plus"></i></a>
           <a className={styles.icon2}><i class="fas fa-bell"></i></a>
-          <a className={styles.icon3}><i class="fa-solid fa-bars"></i></a>
-       
+          
+            
             
           </div>
         </div>
