@@ -10,6 +10,8 @@ import Registration from "./components/Registration/Registration";
 import Login from "./components/Login/Login";
 import CheckBoxList from "./components/CheckBoxList/CheckBoxList";
 import Footer from "./components/Footer/Footer";
+import Name from "./components/Name/Name"
+import Service from "./components/Service/Service";
 
 const App = () => {
   const [hamActive, setHamActive] = useState(false);
@@ -21,6 +23,9 @@ const App = () => {
       <CheckBoxList />
       <Registration />
       <Login />
+      
+      <Name />
+      <Service/>
       <Footer/>
       <Home/>
       

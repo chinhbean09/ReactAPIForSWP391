@@ -1,0 +1,68 @@
+.container {
+    display: flex; /* Hiển thị các thành phần trên cùng 1 hàng */
+    justify-content: space-between; /* Cách xa chúng một khoảng đều */
+    background-color: #dceefe;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  .combo-item {
+    flex: 1; /* Chia đều không gian trên hàng cho các thành phần */
+    margin: 10px; /* Khoảng cách giữa các thành phần */
+  }
+  .hi button{
+    background-color: rgb(255, 166, 0);
+    border-radius: 30px;
+    font-size: larger;
+    margin-bottom: 30px;
+    margin-right: 80px;
+  }
+  .hi h2{
+    margin: 30px;
+    border-radius: 30px;
+    margin-right: 110px;
+  }
+  .hi h1{
+    color: rgb(255, 166, 0);
+    padding-top: 30px;
+  }
+  .hi {
+    background-color: #dceefe;
+    /* margin: 40px; */
+    border-radius: 10px;
+
+  }
+  .hi Avatar{
+  width: 100%; 
+  height: auto;
+  }
+  .full-combo-image{
+    width: 300px;
+  height: 300px; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  margin-top: 40px;
+  margin-left: 130px;
+  }
+  .vertical-line {
+    width: 2px; /* Độ rộng của đường dọc */
+    height: 100%; /* Chiều cao tối đa để căn giữa */
+    background-color: black; /* Màu sắc của đường dọc */
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+  }
+  .full-combo-image:hover {
+    animation: move-up-down 1.5s infinite;
+  }
+  
+  @keyframes move-up-down {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
