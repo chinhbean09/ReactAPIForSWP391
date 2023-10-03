@@ -1,0 +1,244 @@
+.heroWrapper {
+    width: 100%;
+    min-height: 460px;
+    background: #dceefe;
+    /* background: #f5f5f5; */
+    /* background-color: rgb(37, 150, 190); */
+    position: relative;
+    justify-content: flex-start;
+    overflow: hidden;
+  }
+  
+  .heroInner {
+    margin-left: 150px;
+    flex-direction: column;
+    z-index: 10;
+  }
+  
+  
+  
+  .headerText {
+    letter-spacing: 0.5px;
+    font-size: 2.5rem;
+    color: #353839;
+    font-weight: 600;
+    width: 60%;
+    margin-top: 5px;
+  }
+  
+  .heroInner p {
+    font-size: 18px;
+    margin: 25px 0;
+    text-align: left;
+  }
+  .inputLocation {
+    display: flex;
+    justify-content: flex-start;
+    width: 475px;
+    background: white;
+    border-radius: 0.75rem;
+  }
+  
+  .inputLocation i {
+    align-self: center;
+    justify-self: center;
+    padding: 25px;
+  }
+  .inputLocation input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+  }
+  
+  .inputLocation input::placeholder {
+    font-size: 1.2rem;
+  }
+  
+  .heroImage {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+  }
+  
+  .heroImage img {
+    height: 100%;
+  }
+  .arrow {
+    color: #0c4e88;
+  }
+  
+  @media (max-width: 900px) {
+    .heroImage {
+      width: 100%;
+    }
+    .heroImage img {
+      transform: rotate(-90deg) scale(1.2);
+      height: 100vw;
+      object-fit: cover;
+      position: absolute;
+      left: 10%;
+      bottom: 10px;
+    }
+    .heroWrapper {
+      align-items: flex-end;
+    }
+  
+    .heroInner {
+      margin: 50px 20px;
+      overflow: hidden;
+      width: 100%;
+    }
+    .inputLocation {
+      margin-top: 20px;
+      width: 100%;
+    }
+    .inputLocation input {
+      width: 90%;
+    }
+    
+    
+    .headerText {
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 550px) {
+    .inputLocation {
+      width: 100%;
+    }
+    .heroImage img {
+      bottom: 160px;
+    }
+    .headerText {
+      width: 80%;
+      font-size: 1.75rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .headerText {
+      width: 80%;
+      font-size: 1.5rem;
+    }
+  }
+.header-1{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  
+  
+}
+.header-2{
+  margin-top: -28px;
+  margin-left: 688px;
+}
+.header-3{
+    margin-top: 10px;
+    text-align: justify;
+    margin-left: 20px;
+}
+.order-table{
+  text-align: left;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid #DDDDDD;
+  padding: 10px;
+  font-size: 15px;
+  width: 40%;
+}
+.tieu-de{
+  padding:2px 20px;
+	margin-top:0px;
+	font-size:15px;
+	font-weight:500;
+	display:block;
+	max-width:207px;
+	border-radius:99px;
+}
+.icon{
+  width: 20px;
+  margin-left: -4px;
+}
+
+.accept-1{
+  margin: 20px 0px 10px 50px;
+  border-radius: 5px;
+  border: 2px solid #DDDDDD;
+  width: fit-content;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.accept-2{
+  margin-left: 382px;
+  margin-top: -48px;
+  margin-right: -20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 2px solid #DDDDDD;
+  width: fit-content;
+  padding: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #00CC00;
+  color: white;
+}
+.success{
+  background-color: #00CC00;
+}
+
+.cash-table{
+  text-align: left;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 2px solid #DDDDDD;
+  padding: 10px;
+  font-size: 15px;
+  width: 40%;
+  background-color: #00CC00;
+}
+.first{
+  margin-top: 13px;
+  margin-left: 110px;
+}
+.second {
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 165px;
+}
+.second li{
+  margin-right: 30px;
+  border-right: 1px solid gray;
+  margin-left: -12px;
+}
+.last {
+  display: flex;
+  flex-direction: row;
+  margin-left: 165px;
+  margin-bottom: 30px;
+  
+}
+.last li{
+  margin-right: 20.5px;
+  border-right: 1px solid gray;
+}
+.fa-wallet{
+  font-size: 70px;
+  margin-left: -80px;
+  margin-top: 10px;
+}
+.content-1{
+  margin-top: -49px;
+}
+.content-2{
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+
+
+  

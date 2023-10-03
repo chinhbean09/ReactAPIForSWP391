@@ -123,8 +123,6 @@ const CheckBoxList = () => {
   </div>
   </div>
 </div>
-
-
         </div>
         <div>vinhlon</div>
     </section>

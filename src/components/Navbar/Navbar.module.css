@@ -87,6 +87,15 @@
   /* background-color: red; */
   text-align: center;
 }
+.icon3{
+  color: #343538;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+  padding: 0.7rem 1.1rem;
+  /* background-color: red; */
+  text-align: center;
+}
 
 /* HAMBURGER */
 .hamburger {
