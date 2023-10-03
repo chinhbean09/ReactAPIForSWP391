@@ -7,5 +7,6 @@
     /* margin-left: 15px; */
 }
 .list{
-    display: inline-flex;
+    display: flex;
+    justify-content: space-between;
 }
