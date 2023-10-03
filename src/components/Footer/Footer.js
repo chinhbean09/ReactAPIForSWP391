@@ -1,64 +1,113 @@
-// import { Container } from "react-bootstrap";
-import styles from "./Footer.module.css";
-
+import {
+  Avatar,
+  Box,
+  Flex,
+  Heading,
+  Icon,
+  Text,
+  useMediaQuery,
+} from "@chakra-ui/react";
+import React from "react";
+import { BsGithub, BsLinkedin, BsFacebook, BsTwitter } from "react-icons/bs";
 const Footer = () => {
-    const logo = "echbuon.png";
-    return (
-        <div className={`${styles.big} center`}>
-        <div className={`${styles.container}`}>
-            <img src={logo} alt="logo" className={`${styles.brand}`} />
-            <div className={`${styles.text1}`}>
-                <div>Step into our enchanting </div>
-                <div>online world, where every</div> 
-                <div>visit is an invitation to </div>
-                <div>experience the magic of </div>
-                <div>what we have to offer.</div>
-            </div>
-            <div className={`${styles.text3}`}>
-                Hỗ Trợ
-            </div>
+  const [isLargerThan] = useMediaQuery("(min-width: 768px)");
+  const [isSmallerThan] = useMediaQuery("(min-width: 468px)");
+  const logo = "echbuon.png";
+  
+  return (
+    <div className="Footer">
+      <Box bg="#eee">
+      <Box
+        bg="#dceefe"
+        color="black"
+        height={isSmallerThan ? "50vh" : "50vh"}
+        pt="3rem"
+        lineHeight="2rem"
+ 
+      >
+        <Flex
+          justify={"space-evenly"}
+          width={["100%", "100%", "100%", "100%"]}
+          textAlign={isSmallerThan ? "left" : "center"}
+          fontSize={["sm", "md", "md", "md"]}
+          flexDirection={isSmallerThan ? "row" : "column"}
+        >
+          <Box as={Flex} flexDirection="column" lineHeight="25px">
+            <Heading>Product</Heading>
+            <Text >Experience the wonders of </Text>
+            <Text >our enchanting online world,</Text>
+            <Text >where each visit is an</Text>
+            <Text >opportunity to immerse yourself</Text>
+            <Text >in the captivating magic of</Text>
+            <Text >our offerings. Join us and</Text>
+            <Text >discover the extraordinary</Text>
+            <Text >possibilities that await you.</Text>    
+          </Box>
 
-            <div className={`${styles.text2}`}>
-                <div className={`${styles.LH}`}>Liên Hệ: </div>
-                <div>Câu hỏi thường gặp</div>
-                <div>Điều khoản sử dụng</div>
-                <div>Chính sách bảo mật</div>
-                <div>Giải quyết khiếu nại</div>
-            </div>
-            <div className={`${styles.text4}`}>
-                <div>Địa chỉ</div>
-                <div>FPT University </div>
-            </div>
-            <div className={`${styles.text5}`}>
-                <div>Mở cửa</div>
-                <div>08:00 - 20:00 </div>
-                <div>Thứ 2 - Chủ Nhật</div>
-            </div>
-            <div className={`${styles.icon}`}>
-            <span>
-              <a href="https://www.facebook.com/" className="fab fa-facebook-square">
-                {" "}
-              </a>
-            </span>
-            <span>
-              <a href="https://twitter.com/" className="fab fa-twitter">
-                {" "}
-              </a>
-            </span>
-            <span>
-              <a
-                href="https://instagram.com/" className="fab fa-instagram">
-                {" "}
-              </a>
-            </span>
-            <span>
-              <a href="https://www.pinterest.com/" className="fab fa-pinterest">
-                {" "}
-              </a>
-            </span>
-          </div>
-        </div>
-        </div>
-    )
-}
+          {isSmallerThan ? (
+            <Box>
+              <Heading>Support</Heading>
+              <Text>Help</Text>
+              <Text>Customer Service</Text>
+              <Text>Shipping</Text>
+              <Text>Order Tracker</Text>
+              <Text>Returns & Exchanges</Text>
+            </Box>
+          ) : null}
+
+          {isLargerThan ? (
+            <Box>
+              <Heading>Company Info</Heading>
+              <Text>About Us</Text>
+              <Text>Entity Details</Text>
+              <Text>Careers</Text>
+              <Text>Company Apps</Text>
+            </Box>
+          ) : null}
+          
+          <Box mt="1rem" display={"flex"} gap="1rem" justifyContent={"center"} color="black">
+            <a
+              href="https://www.linkedin.com/"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <Icon  w={30} h={30} my="1rem" color="black" as={BsLinkedin} />
+            </a>
+            <a
+              href="https://github.com/lamquocvinh"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <Icon  w={30} h={30} my="1rem" color="black" as={BsGithub} />
+            </a>
+            
+            <a
+              href="https://facebook.com/"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <Icon w={30} h={30} my="1rem" color="black" as={BsFacebook} />
+            </a>
+            <a
+              href="https://twitter.com/?tw_p=twt"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <Icon w={30} h={30} my="1rem" color="black" as={BsTwitter} />
+            </a>
+            <a
+              href="https://nmewada01.github.io/logo/"
+              target={"_blank"}
+              rel="noreferrer"
+            >
+              <Avatar w={30} h={30} my="1rem" bg="white" src={logo} />
+            </a>
+          </Box>
+        </Flex>
+      </Box>
+      </Box>
+    </div>
+  );
+};
+
 export default Footer;
