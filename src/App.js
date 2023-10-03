@@ -12,7 +12,8 @@ import CheckBoxList from "./components/CheckBoxList/CheckBoxList";
 import Footer from "./components/Footer/Footer";
 import Name from "./components/Name/Name"
 import Service from "./components/Service/Service";
-
+import PopularList from "./components/PopularList/PopularList";
+import AllList from "./components/AllList/AllList";
 const App = () => {
   const [hamActive, setHamActive] = useState(false);
   return (
@@ -21,10 +22,11 @@ const App = () => {
       <NavbarResponsive hamActive={hamActive} />
       <Hero />
       <CheckBoxList />
+      <PopularList/>
+      <AllList />
       <Registration />
-      <Login />
-      
-      <Name />
+      <Login/>
+      <Name/>
       <Service/>
       <Footer/>
       <Home/>
