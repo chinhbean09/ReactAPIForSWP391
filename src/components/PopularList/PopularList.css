@@ -1,0 +1,11 @@
+.container{
+    background-color: white;
+}
+
+.card{
+    margin-bottom: 15px;
+    /* margin-left: 15px; */
+}
+.list{
+    display: inline-flex;
+}

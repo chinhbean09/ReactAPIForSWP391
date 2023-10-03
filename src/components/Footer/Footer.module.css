@@ -1,19 +1,4 @@
-.container {
-    width: 952px;
-    height: 300px;
-    border-radius: 30px;
-    margin: 30px 290px 30px;
-    background: rgba(129, 242, 250, 0.381);
-    padding-left: 60px;
-    padding-top: 20px;
-    display: grid;
-    grid-template-columns: 3fr 2fr 2fr;
-    column-gap: 30px;
-    align-items: center;
-    display: grid;
-    grid-template-rows: 2fr 4fr;
-    overflow: hidden;
-}
+
 .brand {
     width: 120px;
     cursor: pointer;
