@@ -6,7 +6,7 @@ import "./AllList.css"
 const AllList = () => {
 
   return (
-  <div className="container row item2 col-md-12">
+  <div className="container item2 col-md-12">
     <div className="row row-content">
     <div className="all flex">
         <h3>All Stores</h3>
