@@ -15,6 +15,7 @@ import Service from "./components/Service/Service";
 import PopularList from "./components/PopularList/PopularList";
 import AllList from "./components/AllList/AllList";
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart"
+import OrderDetails from "./components/OrderDetails/OrderDetails"
 const App = () => {
   const [hamActive, setHamActive] = useState(false);
   return (
@@ -32,6 +33,7 @@ const App = () => {
       <Footer/>
       <Home/>
       <ShoppingCart/>
+      <OrderDetails />
       
     </div>
   );
