@@ -14,7 +14,7 @@ const AllList = () => {
         <i class="fa-solid fa-bars"></i>    
     
     </div><br/><br></br>
-      <div className="col col-sm-3 col-md-3">
+      <div className="store col-sm-3 col-md-3">
       <Card style={{ width: '16rem' }}>
         <Card.Img variant="bottom" style={{ width: '200 px' }} src="echbuon.png" />
         <Card.Body>
@@ -22,7 +22,7 @@ const AllList = () => {
         </Card.Body>
       </Card>
       </div>
-      <div className="col col-sm-3 col-md-3">
+      <div className="store col-sm-3 col-md-3">
       <Card style={{ width: '16rem' }}>
         <Card.Img variant="bottom" style={{ width: '200 px' }} src="echbuon.png" />
         <Card.Body>
@@ -30,7 +30,7 @@ const AllList = () => {
         </Card.Body>
       </Card>
       </div>
-      <div className="col col-sm-3 col-md-3">
+      <div className="store col-sm-3 col-md-3">
       <Card style={{ width: '16rem' }}>
         <Card.Img variant="bottom" style={{ width: '200 px' }} src="echbuon.png" />
         <Card.Body>
@@ -38,7 +38,7 @@ const AllList = () => {
         </Card.Body>
       </Card>
       </div>
-      <div className="col col-sm-3 col-md-3">
+      <div className="store col-sm-3 col-md-3">
       <Card style={{ width: '16rem' }}>
         <Card.Img variant="bottom" style={{ width: '200 px' }} src="echbuon.png" />
         <Card.Body>
@@ -47,7 +47,7 @@ const AllList = () => {
       </Card>
       </div>
       
-      <div className="col col-sm-3 col-md-3">
+      <div className="store col-sm-3 col-md-3">
 
       <Card style={{ width: '16rem' }}>
         <Card.Img variant="bottom" style={{ width: '200 px' }} src="echbuon.png" />
@@ -56,7 +56,7 @@ const AllList = () => {
         </Card.Body>
       </Card>
       </div>
-      <div className="col col-sm-3 col-md-3">
+      <div className="store col-sm-3 col-md-3">
 
       <Card style={{ width: '16rem' }}>
         <Card.Img variant="bottom" style={{ width: '200 px' }} src="echbuon.png" />
@@ -67,7 +67,7 @@ const AllList = () => {
       </Card>
       </div>
 
-      <div className="col col-sm-3 col-md-3">
+      <div className="store col-sm-3 col-md-3">
 
       <Card style={{ width: '16rem' }}>
         <Card.Img variant="bottom" style={{ width: '200 px' }} src="echbuon.png" />
@@ -77,7 +77,7 @@ const AllList = () => {
         </Card.Body>
       </Card>
       </div>
-      <div className="col col-sm-3 col-md-3">
+      <div className="store col-sm-3 col-md-3">
       <Card style={{ width: '16rem' }}>
         <Card.Img variant="top" src="echbuon.png"/>
         <Card.Body>
