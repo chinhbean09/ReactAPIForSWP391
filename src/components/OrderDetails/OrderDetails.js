@@ -238,7 +238,7 @@ import {
 
 
 
-                  <MDBCardBody className="p-4">
+                  {/* <MDBCardBody className="p-4">
                     <div className="d-flex justify-content-between align-items-center mb-4">
                       <p
                         className="lead fw-normal mb-0"
@@ -249,7 +249,7 @@ import {
                       <p className="small text-muted mb-0">
                         Mã Biên Lai : 1KAU9-84UIL
                       </p>
-                    </div>
+                    </div> */}
   
                     {/* <MDBCard className="shadow-0 border mb-4">
                       <MDBCardBody>
@@ -314,7 +314,7 @@ import {
                     {/* </MDBCard> */}
   
 
-                  </MDBCardBody>
+                  {/* </MDBCardBody> */}
                   
                   <MDBCardFooter
                     className="border-0 px-4 py-5"

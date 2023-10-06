@@ -1,17 +1,11 @@
-.container{
-    background-color: white;
-}
 
-.card{
+.store{
     margin-bottom: 20px;
 }
-.list{
-    display: inline-flex;
-}
+
 .more{
     background-color: #0c4e88;
     color:white;
-    display: inline-block;
 }
 .all i{
         margin-top: 5px;

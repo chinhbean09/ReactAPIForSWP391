@@ -1,5 +1,5 @@
-import React, { useState } from "react";
 import './App.css';
+import React, { useState } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import NavbarResponsive from "./components/NavbarResponsive/NavbarResponsive";
 import Hero from "./components/Hero/Hero";
@@ -14,8 +14,11 @@ import Name from "./components/Name/Name"
 import Service from "./components/Service/Service";
 import PopularList from "./components/PopularList/PopularList";
 import AllList from "./components/AllList/AllList";
-import ShoppingCart from "./components/ShoppingCart/ShoppingCart"
-import OrderDetails from "./components/OrderDetails/OrderDetails"
+import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
+import OrderDetails from "./components/OrderDetails/OrderDetails";
+import ProfilePage from "./components/UserProfile/UserProfile";
+import HistoryOrder from "./components/UserProfile/HistoryOrder"
+import EditProfile from "./components/EditProfile/EditProfile";
 const App = () => {
   const [hamActive, setHamActive] = useState(false);
   return (
@@ -34,7 +37,8 @@ const App = () => {
       <Home/>
       <ShoppingCart/>
       <OrderDetails />
-      
+      <ProfilePage/>
+      <EditProfile/>
     </div>
   );
 };
